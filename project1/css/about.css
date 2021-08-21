@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    overflow: hidden;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 15px;
+    margin-top: 10px;
+    
+}
+.navbar ul{
+    color: rgb(189, 182, 182);
+    display: flex;
+    list-style: none;
+}
+.nav a:hover{
+    color: red;
+    transition: 00.3s;
+}
+.navbar li{
+    display: inline;
+
+}
+.navbar h2{
+    padding: 5px;
+    color: white;
+}
+.nav{
+    padding-top: 5px;
+}
+.nav a{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: white;
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(121,14,9,1) 39%, rgba(0,212,255,1) 100%);
+}
+.body{
+    height: 80vh;
+    padding-top: 20px;
+}
+.body h2{
+    text-align: center;
+    color:white;
+    font-size: 45px;
+    cursor: pointer;
+}
+.body h2:hover{
+    color:red;
+    transition: 00.3s;
+}
+.body h4{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+    font-size:18px ;
+}
+.imgs img{ 
+    margin-top: 50px;
+    margin-left: 10px;  margin-right: 10px;
+    transition: 0.3s;
+    width: 100px ;
+    height:100px;
+}
+.imgs img:hover{
+    border-radius: 30%;
+
+}
+.imgs {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 520px;
+    padding-right: 100px;
+
+} 
+.footer{
+    display: flex;
+    align-content: center;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: -40px;
+    margin-bottom: auto;
+}
+#box{
+    display: inline-flex;
+    margin-top: 25px;
+    margin-left: 300px;
+}
+.contact h1{
+    color: white;
+    font-weight: 1000;
+    margin-bottom: -17px;
+}
+.contact{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.contact h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+#email{
+    padding-right: 10px;
+}
+#name {
+    margin-top: 30px;
+}
+.footer img{
+    height: 70px;
+    width: 70px;
+    margin-left: 45px;
+}
+.footer h3{
+    margin-left:10px;
+}
+#designed{
+    margin-left:420px;
+    margin-top: 80px;
+    font-size: 14px;
+    color: black;
+}
+
+
+    
+
+
