@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h2>Portfolio</h2>
+        <ul>
+            <div class="nav">
+                <a href="about.html">
+                    About</a>
+                <a href="projects.html">
+                    Projects
+                </a>
+                <a href="contact.html">
+                    Contact
+                </a>
+            </div>
+        </ul>
+    </div>
+    <h1>
+        <center id="navContact">Contact me</center>
+    </h1>
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend>Sign Up</legend>
+                <div>
+                    <label for="name">Name:</label>
+                    <br>
+                    <input class="inputText" type="text" name="name" id="name" placeholder="First Name..">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input class="inputText" type="email" name="email" id="email" required
+                        placeholder="Email Address..">
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <br>
+                    <input class="inputText" type="password" name="password" id="password" placeholder="Password..">
+                </div>
+                <div>
+                    <label for="age">Age:</label>
+                    <br>
+                    <input class="inputText" type="number" name="age" id="age" min="1" max="100" placeholder="Age..">
+                </div>
+                <div>
+                    <label for="gender">Gender:</label>
+                    <br>
+                    <select class="inputText" name="gender" >
+                        <option value="se" style="color: grey !important;" disabled selected hidden> Sexe.. </option>
+                        <option value="male" class="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    <textarea name="comment" id="textarea" cols="30" rows="5"
+                        placeholder="Add a comment here..."></textarea>
+                </div>
+                <button id="submit">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="contact">
+                <h1>Contact Me</h1>
+            </div>
+            <div id="information">
+                <h3>Amine Boussetta</h3>
+                <h3>92013044</h3>
+                <h3>amineboussetta006@gmail.com</h3>
+            </div>
+        </div>
+        <div id="box">
+            <img src="img/github.png">
+            <img src="img/linked in.png">
+            <img src="img/codewars-512.png">
+        </div>
+        <h3 id="designed">Designed by Amine</h3>
+    </div>
+</body>
+
+</html>
